@@ -20,26 +20,37 @@ Final-year B.Tech CSE student — Sri Venkateswara College of Engineering & Tech
 
 ---
 
-🌱 Currently Learning: Spring Security (finishing up)
-🎯 Next: Full-stack capstone project (Spring Boot + React) + GATE 2027 & interview prep
+🌱 **Currently:** GATE 2027 preparation | DSA in Java | Spring Boot projects  
+🎯 **Next:** Full-stack capstone project (Spring Boot + React)  
+📍 **Open to:** Java Backend / Full Stack Developer roles
 
 ---
 
 ## 🚀 Featured Projects
 
+### 🏥 Hospital Management System
+Full-stack HMS with Spring Boot 3, Spring Security 6, JWT auth, 
+4-role RBAC, and business logic enforcement (double-booking prevention).
+
+| Stack | Database | Code |
+|-------|----------|------|
+| Spring Boot, Spring Security, Thymeleaf | PostgreSQL | [Repository](https://github.com/Harshavardhan3535/hospital-management-system) |
+
 ### 🔐 User Auth API
-Authentication service with dual-token JWT, role-based access control, bcrypt password hashing, and rate limiting.
+Stateless REST API with dual-token JWT, RBAC, bcrypt hashing, 
+httpOnly cookies, and rate limiting. Deployed on Render.
 
 | Stack | Database | Live | Code |
-|---|---|---|---|
-| Node.js, Express | MongoDB | [Live Demo](https://user-auth-api-tzwz.onrender.com) | [Repository](https://github.com/Harshavardhan3535) |
+|-------|----------|------|------|
+| Node.js, Express | MongoDB | [Live Demo](https://user-auth-api-tzwz.onrender.com) | [Repository](https://github.com/Harshavardhan3535/user-auth-api) |
 
-### 📝 Blog API
-REST API with full CRUD, pagination, keyword search, and centralized error handling.
+### 📝 REST Blog API
+Paginated REST API with keyword search, input validation, 
+parameterized queries, and centralized error handling.
 
 | Stack | Database | Live | Code |
-|---|---|---|---|
-| Node.js, Express | PostgreSQL | [Live Demo](https://blog-api-56im.onrender.com) | [Repository](https://github.com/Harshavardhan3535) |
+|-------|----------|------|------|
+| Node.js, Express | PostgreSQL | [Live Demo](https://blog-api-56im.onrender.com) | [Repository](https://github.com/Harshavardhan3535/blog-api) |
 
 ---
 
@@ -55,14 +66,16 @@ REST API with full CRUD, pagination, keyword search, and centralized error handl
 ## 🎓 Certifications
 
 | Certificate | Provider |
-|---|---|
+|-------------|----------|
+| Software Engineering Job Simulation | J.P. Morgan (Forage) |
 | SQL & Relational Databases 101 | IBM |
-| MongoDB Overview | MongoDB/Credly |
-| Career Edge | TCS iON |
+| Career Edge — Young Professional | TCS iON |
+| MongoDB Overview | MongoDB / Credly |
 
 ---
 
 ## 📫 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](www.linkedin.com/in/harsha-vardhan-6367bb28b)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsha-vardhan-6367bb28b)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:harsha.muthukur@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Harshavardhan3535)
