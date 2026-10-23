@@ -92,5 +92,7 @@ parameterized queries, and centralized error handling.
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:harsha.muthukur@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Harshavardhan3535)
 
+---
 
+## 👀 Profile Viewers
 ![Profile Views](https://komarev.com/ghpvc/?username=Harshavardhan3535&color=blue&style=flat-square)
