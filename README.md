@@ -43,10 +43,10 @@ REST APIs · Spring Framework · RBAC
 ### 🏥 Hospital Management System
 Full-stack HMS with Spring Boot 3, Spring Security 6, JWT auth, 
 4-role RBAC, and business logic enforcement (double-booking prevention).
-
-| Stack | Database | Code |
-|-------|----------|------|
-| Spring Boot, Spring Security, Thymeleaf | PostgreSQL | [Repository](https://github.com/Harshavardhan3535/hospital-management-system) |
+ 
+| Stack | Database | Live | Code |
+|-------|----------|------|------|
+| Spring Boot, Spring Security, Thymeleaf | PostgreSQL | [Live Demo](https://hms-demo-v2.onrender.com) | [Repository](https://github.com/Harshavardhan3535/hospital-management-system) |
 
 ### 🔐 User Auth API
 Stateless REST API with dual-token JWT, RBAC, bcrypt hashing, 
@@ -96,3 +96,11 @@ parameterized queries, and centralized error handling.
 
 ## 👀 Profile Viewers
 ![Profile Views](https://komarev.com/ghpvc/?username=Harshavardhan3535&color=blue&style=flat-square)
+
+---
+ 
+## 📈 Skill Proficiency
+ 
+<img src="skills.svg" alt="Skill proficiency" width="620"/>
+
+*Self-assessed, based on hands-on use in my projects.*
