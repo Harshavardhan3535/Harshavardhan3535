@@ -43,7 +43,7 @@ REST APIs · Spring Framework · RBAC
 ### 🏥 Hospital Management System
 Full-stack HMS with Spring Boot 3, Spring Security 6, JWT auth, 
 4-role RBAC, and business logic enforcement (double-booking prevention).
- 
+
 | Stack | Database | Live | Code |
 |-------|----------|------|------|
 | Spring Boot, Spring Security, Thymeleaf | PostgreSQL | [Live Demo](https://hms-demo-v2.onrender.com) | [Repository](https://github.com/Harshavardhan3535/hospital-management-system) |
@@ -66,15 +66,6 @@ parameterized queries, and centralized error handling.
 
 ---
 
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Harshavardhan3535&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshavardhan3535&layout=compact&theme=default&hide_border=true" alt="Top Languages" height="160"/>
-</p>
-
----
-
 ## 🎓 Certifications
 
 | Certificate | Provider |
@@ -94,13 +85,22 @@ parameterized queries, and centralized error handling.
 
 ---
 
-## 👀 Profile Viewers
-![Profile Views](https://komarev.com/ghpvc/?username=Harshavardhan3535&color=blue&style=flat-square)
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Harshavardhan3535&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshavardhan3535&layout=compact&theme=default&hide_border=true" alt="Top Languages" height="160"/>
+</p>
 
 ---
- 
+
 ## 📈 Skill Proficiency
- 
+
 <img src="skills.svg" alt="Skill proficiency" width="620"/>
 
 *Self-assessed, based on hands-on use in my projects.*
+
+---
+
+## 👀 Profile Viewers
+![Profile Views](https://komarev.com/ghpvc/?username=Harshavardhan3535&color=blue&style=flat-square)
