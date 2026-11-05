@@ -1,3 +1,5 @@
+"""Generate languages.svg and stats.svg for a GitHub profile from the public GitHub API.
+Run by GitHub Actions (see .github/workflows/stats.yml). No third-party service involved."""
 import json, os, urllib.request
 from xml.sax.saxutils import escape
 
@@ -13,22 +15,27 @@ def get(url):
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
 
-repos = [r for r in get(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner") if not r["fork"]]
+# Repos counted in the language chart. Edit this list to add or remove projects.
+INCLUDE = ["hospital-management-system", "user-auth-api", "blog-api"]
+
+all_repos = [r for r in get(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner") if not r["fork"]]
+repos = [r for r in all_repos if r["name"].lower() in [n.lower() for n in INCLUDE]]
 langs = {}
 for r in repos:
     for lang, n in get(r["languages_url"]).items():
         langs[lang] = langs.get(lang, 0) + n
 total = sum(langs.values()) or 1
 top = sorted(langs.items(), key=lambda kv: -kv[1])[:6]
-stars = sum(r["stargazers_count"] for r in repos)
+stars = sum(r["stargazers_count"] for r in all_repos)
 
 STYLE = ('<style>text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-size:14px;fill:#8b949e}'
          '.v{font-weight:600}.h{font-size:15px;font-weight:700}</style>')
 
+# Most used languages card
 W, x0, bw, rowh = 620, 150, 360, 30
 H = 50 + rowh * len(top)
 o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Most used languages">', STYLE,
-     '<text class="h" x="0" y="20">Most used languages (by code in my repos)</text>']
+     '<text class="h" x="0" y="20">Languages in my featured projects</text>']
 for i,(lang,n) in enumerate(top):
     pct = n*100/total
     cy = 50 + i*rowh
@@ -40,10 +47,12 @@ for i,(lang,n) in enumerate(top):
 o.append('</svg>')
 open("languages.svg","w").write("\n".join(o))
 
-items = [("Public repos", len(repos)), ("Stars earned", stars)]
+# Simple numbers card
+items = [("Public repos", len(all_repos)), ("Stars earned", stars)]
 o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="300" height="{40+30*len(items)}" role="img" aria-label="GitHub numbers">', STYLE,
      '<text class="h" x="0" y="20">GitHub at a glance</text>']
 for i,(k,v) in enumerate(items):
     o += [f'<text x="0" y="{52+i*30}">{k}</text>', f'<text class="v" x="200" y="{52+i*30}">{v}</text>']
 o.append('</svg>')
 open("stats.svg","w").write("\n".join(o))
+print("repos:", len(repos), "langs:", top)
