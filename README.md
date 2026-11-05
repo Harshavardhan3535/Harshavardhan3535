@@ -81,8 +81,8 @@ parameterized queries, and centralized error handling.
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Harshavardhan3535&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshavardhan3535&layout=compact&theme=default&hide_border=true" alt="Top Languages" height="160"/>
+  <img src="languages.svg" alt="Most used languages" width="460"/>
+  <img src="stats.svg" alt="GitHub at a glance" width="260"/>
 </p>
 
 ---
