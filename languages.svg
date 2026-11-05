@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="230" viewBox="0 0 620 230" role="img" aria-label="Most used languages">
+<style>text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-size:14px;fill:#8b949e}.v{font-weight:600}.h{font-size:15px;font-weight:700}</style>
+<text class="h" x="0" y="20">Most used languages (by code in my repos)</text>
+<text x="0" y="55">HTML</text>
+<rect x="150" y="45" width="360" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
+<rect x="150" y="45" width="308" height="10" rx="5" fill="#e34c26"/>
+<text class="v" x="524" y="55">85.6%</text>
+<text x="0" y="85">CSS</text>
+<rect x="150" y="75" width="360" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
+<rect x="150" y="75" width="18" height="10" rx="5" fill="#563d7c"/>
+<text class="v" x="524" y="85">5.0%</text>
+<text x="0" y="115">Java</text>
+<rect x="150" y="105" width="360" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
+<rect x="150" y="105" width="15" height="10" rx="5" fill="#b07219"/>
+<text class="v" x="524" y="115">4.2%</text>
+<text x="0" y="145">JavaScript</text>
+<rect x="150" y="135" width="360" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
+<rect x="150" y="135" width="15" height="10" rx="5" fill="#f1e05a"/>
+<text class="v" x="524" y="145">4.0%</text>
+<text x="0" y="175">TypeScript</text>
+<rect x="150" y="165" width="360" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
+<rect x="150" y="165" width="4" height="10" rx="5" fill="#3178c6"/>
+<text class="v" x="524" y="175">0.7%</text>
+<text x="0" y="205">Python</text>
+<rect x="150" y="195" width="360" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
+<rect x="150" y="195" width="4" height="10" rx="5" fill="#3572A5"/>
+<text class="v" x="524" y="205">0.3%</text>
+</svg>

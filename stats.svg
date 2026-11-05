@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" role="img" aria-label="GitHub numbers">
+<style>text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-size:14px;fill:#8b949e}.v{font-weight:600}.h{font-size:15px;font-weight:700}</style>
+<text class="h" x="0" y="20">GitHub at a glance</text>
+<text x="0" y="52">Public repos</text>
+<text class="v" x="200" y="52">25</text>
+<text x="0" y="82">Stars earned</text>
+<text class="v" x="200" y="82">1</text>
+</svg>
