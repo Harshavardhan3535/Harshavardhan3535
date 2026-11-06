@@ -16,10 +16,25 @@ def get(url):
         return json.load(r)
 
 # Repos counted in the language chart. Edit this list to add or remove projects.
-INCLUDE = ["hospital-management-system", "user-auth-api", "blog-api"]
+# Use the EXACT repo name from the repo's URL (capital letters don't matter).
+INCLUDE = [
+    "hospital-management-system",
+    "user-auth-api",
+    "blog-api",
+    "library-management-system",
+    "TechStore.Project",
+    "student-management-system-jdbc",
+    "servlet-employee-management-system",
+    "Task-Management-Application-Project",
+    "dsa-java",
+]
 
 all_repos = [r for r in get(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner") if not r["fork"]]
 repos = [r for r in all_repos if r["name"].lower() in [n.lower() for n in INCLUDE]]
+found = {r["name"].lower() for r in repos}
+for n in INCLUDE:
+    if n.lower() not in found:
+        print(f"WARNING: no repo named '{n}' found - check the spelling against the repo URL")
 langs = {}
 for r in repos:
     for lang, n in get(r["languages_url"]).items():
@@ -35,7 +50,7 @@ STYLE = ('<style>text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-se
 W, x0, bw, rowh = 620, 150, 360, 30
 H = 50 + rowh * len(top)
 o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Most used languages">', STYLE,
-     '<text class="h" x="0" y="20">Languages in my featured projects</text>']
+     '<text class="h" x="0" y="20">Languages across my project repos</text>']
 for i,(lang,n) in enumerate(top):
     pct = n*100/total
     cy = 50 + i*rowh
