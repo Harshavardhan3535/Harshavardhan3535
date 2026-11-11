@@ -4,7 +4,7 @@
 <text x="0" y="55">Java</text>
 <rect x="150" y="45" width="360" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
 <rect x="150" y="45" width="173" height="10" rx="5" fill="#b07219"/>
-<text class="v" x="524" y="55">48.1%</text>
+<text class="v" x="524" y="55">48.2%</text>
 <text x="0" y="85">JavaScript</text>
 <rect x="150" y="75" width="360" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
 <rect x="150" y="75" width="70" height="10" rx="5" fill="#f1e05a"/>
@@ -20,7 +20,7 @@
 <text x="0" y="175">HTML</text>
 <rect x="150" y="165" width="360" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
 <rect x="150" y="165" width="30" height="10" rx="5" fill="#e34c26"/>
-<text class="v" x="524" y="175">8.3%</text>
+<text class="v" x="524" y="175">8.2%</text>
 <text x="0" y="205">SCSS</text>
 <rect x="150" y="195" width="360" height="10" rx="5" fill="#8b949e" fill-opacity="0.25"/>
 <rect x="150" y="195" width="11" height="10" rx="5" fill="#8b949e"/>
